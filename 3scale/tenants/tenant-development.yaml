@@ -12,7 +12,7 @@ spec:
   passwordCredentialsRef:
     name: tenant-admin-secret
     namespace: openshift-operators
-  systemMasterUrl: 'https://master.apps.cluster-xp47l.xp47l.sandbox1456.opentlc.com'
+  systemMasterUrl: 'https://master.apps.labtools.lab.psi.pnq2.redhat.com'
   tenantSecretRef:
     name: tenant-secret
   username: admin
