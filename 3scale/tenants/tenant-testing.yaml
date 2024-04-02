@@ -7,12 +7,12 @@ spec:
   email: test@example.openshift.com
   masterCredentialsRef:
     name: system-seed
-    namespace: 3scale
+    namespace: openshift-operators
   organizationName: testing
   passwordCredentialsRef:
     name: tenant-admin-secret
-    namespace: 3scale
-  systemMasterUrl: 'https://master.apps.cluster-xp47l.xp47l.sandbox1456.opentlc.com'
+    namespace: openshift-operators
+  systemMasterUrl: 'https://openshift-operators'
   tenantSecretRef:
     name: tenant-secret
   username: admin
